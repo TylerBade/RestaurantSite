@@ -8,22 +8,64 @@ Updated 11/1/18
 <html lang="en">
 	
 	<head>
-	
+		<title>Contact Us</title>
 	</head>
-	
+		
 	<header>
-	
+		<h1><center>Snack About</center></h1>
+		<h2><center>Contact Us</center></h2>
 	</header>
+	</hr>
 	
 	<nav>
-	
+		<p><a href="index.html">Home</a>	<a href="menu.html">Menu</a>	<a href="contact.html">Contact Us</a></p>
 	</nav>
+	</hr>
 	
 	<body>
-	
+	<center>
+		<form action="submit.html" method="POST">
+			<label for="fName">Name:</label>
+			<input type="text" id="Name" name="Name"><br />
+			
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email"><br />
+			
+			<label for="pNumber">Phone Number:</label>
+			<input type<"text" id="pNumber" name="pNumber"><br />
+			
+			<label for="reason">Reason:</label>
+			<select id="reason" name="reason">
+			<option value="catering" selected>Catering</option>
+			<option value="party">Private party</option>
+			<option value="feedback">Feedback</option>
+			<option value="other">Other</option>
+			</select>
+			<br />
+			
+			<label for="info">Additional Information:</label>
+			<textarea id="info" name="info"></textarea><br />
+			
+			<label for="visited">Have you been to the restaurant?</label>
+			<input type="radio" id="no" name="visited" value="no" checked />
+			<label for="no">No</label>
+			<input type="radio" id="yes" name="visited" value="yes" />
+			<label for="yes">Yes</label>
+			<br />
+			
+			<label for="days">Best days to contact you:</label>
+			<input type="checkbox" name="days" value="M">M</input>
+			<input type="checkbox" name="days" value="Tu">Tu</input>
+			<input type="checkbox" name="days" value="W">W</input>
+			<input type="checkbox" name="days" value="Th">Th</input>
+			<input type="checkbox" name="days" value="F">F</input>
+		</form>
+	</center>
 	</body>
+	</hr>
 	
 	<footer>
-	
+		<p><center>4141 3rd St. W. Farmington, MN 55024</center></p>
+		<p><center>651-382-3324</center></p>
 	</footer>
 </html>
