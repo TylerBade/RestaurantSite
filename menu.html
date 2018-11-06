@@ -9,6 +9,37 @@ Updated 11/1/18
 	
 	<head>
 		<title>Menu</title>
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			body {
+				background-color: lightblue;
+			}
+
+			.drinks tr:nth-child(even) {
+				background-color: #ccc;
+			}
+
+			.drinks th {
+				text-align: left;
+			}
+
+			.left {
+				text-align: left;
+			}
+
+			.right {
+				text-align: right;
+			}
+
+			.drinks tr {
+				padding: 0px;
+				margin: 0px;
+			}
+
+			.drinks {
+				border: 3px solid orange;
+			}
+		</style>
 	</head>
 	
 	<header>
@@ -18,8 +49,9 @@ Updated 11/1/18
 	<hr />
 	
 	<nav>
-		<p><a href="index.html">Home</a>	<a href="menu.html">Menu</a>	<a href="contact.html">Contact Us</a></p>
-	</nav>
+		<p><a href="index.html">Home</a></p>
+		<p><a href="menu.html">Menu</a></p>
+		<p><a href="contact.html">Contact Us</a></p>	</nav>
 	<hr />
 	
 	<body>
@@ -29,6 +61,24 @@ Updated 11/1/18
 	<p>A classic snack for when you want to eat, but don't want to eat a lot.</p>
 	<h3>Shakes</h3>
 	<p>Chocolate, Vanilla and many more, Shakes galore!</p>
+	
+	<table class="drinks">
+		<tr>
+			<th colspan="2">Drinks</th>
+		</tr>
+		<tr>
+			<td class="left">Fountain Soda</td>
+			<td class="right">$1.99</td>
+		</tr>
+		<tr>
+			<td class="left">Bottled Root Beer</td>
+			<td class="right">$2.99</td>
+		</tr>
+		<tr>
+			<td class="left">On Tap</td>
+			<td class="right">Will update</td>
+		</tr>
+	</table>
 	</body>
 	<hr />
 	

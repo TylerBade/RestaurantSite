@@ -1,0 +1,28 @@
+header,footer {
+	background-color: #ee9a00;
+	margin: 0px;
+}
+
+h1,h2 {
+	font-family: "Georgia", serif;
+}
+
+nav {
+	
+}
+
+a:link {
+	color: blue;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:visited {
+	color: purple;
+}

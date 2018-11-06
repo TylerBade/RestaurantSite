@@ -9,32 +9,44 @@ Updated 11/1/18
 	
 	<head>
 		<title>Contact Us</title>
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			.required {
+				font-weight: bold;
+			}
+
+			body {
+				background-color: lightblue;
+			}
+		</style>
 	</head>
 		
 	<header>
 		<h1><center>Snack About</center></h1>
 		<h2><center>Contact Us</center></h2>
 	</header>
-	</hr>
+	<hr />
 	
 	<nav>
-		<p><a href="index.html">Home</a>	<a href="menu.html">Menu</a>	<a href="contact.html">Contact Us</a></p>
+		<p><a href="index.html">Home</a></p>
+		<p><a href="menu.html">Menu</a></p>
+		<p><a href="contact.html">Contact Us</a></p>
 	</nav>
-	</hr>
+	<hr />
 	
 	<body>
-	<center>
-		<form action="submit.html" method="POST">
-			<label for="fName">Name:</label>
+		<form  style="text-align:center;" action="submit.html" method="POST">
+		<p class="required">Bold = required</p>
+			<label class="required" for="fName">Name:</label>
 			<input type="text" id="Name" name="Name"><br />
 			
-			<label for="email">Email:</label>
+			<label class="required" for="email">Email:</label>
 			<input type="text" id="email" name="email"><br />
 			
-			<label for="pNumber">Phone Number:</label>
+			<label class="required" for="pNumber">Phone Number:</label>
 			<input type<"text" id="pNumber" name="pNumber"><br />
 			
-			<label for="reason">Reason:</label>
+			<label class="required" for="reason">Reason:</label>
 			<select id="reason" name="reason">
 			<option value="catering" selected>Catering</option>
 			<option value="party">Private party</option>
@@ -53,16 +65,15 @@ Updated 11/1/18
 			<label for="yes">Yes</label>
 			<br />
 			
-			<label for="days">Best days to contact you:</label>
+			<label class="required" for="days">Best days to contact you:</label>
 			<input type="checkbox" name="days" value="M">M</input>
 			<input type="checkbox" name="days" value="Tu">Tu</input>
 			<input type="checkbox" name="days" value="W">W</input>
 			<input type="checkbox" name="days" value="Th">Th</input>
 			<input type="checkbox" name="days" value="F">F</input>
 		</form>
-	</center>
 	</body>
-	</hr>
+	<hr />
 	
 	<footer>
 		<p><center>4141 3rd St. W. Farmington, MN 55024</center></p>
