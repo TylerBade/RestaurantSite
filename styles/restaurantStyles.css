@@ -7,22 +7,59 @@ h1,h2 {
 	font-family: "Georgia", serif;
 }
 
-nav {
-	
+body {
+	background-color: lightblue;
 }
 
-a:link {
+hr {
+	border-color: red;
+}
+
+header, footer, body {
+	text-align: center;
+}
+
+nav {
+	text-align: left;
+}
+
+nav .btn {
+	background-color: orange;
 	color: blue;
 }
 
-a:active {
-	text-decoration: none;
-}
-
-a:hover {
+nav .btn:hover {
 	font-weight: bold;
 }
 
-a:visited {
-	color: purple;
+.carousel-item {
+	background: #333;
+	text-align: center;
+	height: 100px;
+	color: orange;
+}
+
+.item:active {
+	display: block;
+}
+
+.carousel-indicators {
+	bottom: 0;
+}
+
+.center_div {
+	margin:0 auto;
+	width: 80%;
+}
+
+.panel-title {
+	background-color: orange;
+	color: black;
+	border: thin solid white;
+}
+
+.panel-body {
+	background-color: lightgray;
+	color: black;
+	border: thin solid white;
 }
